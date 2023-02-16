@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>The Basic Language of the web: HTML</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>The Basic Language of the web: HTML</title>
+</head>
+
+<body>
+  <div class="container">
     <header class="main-header">
       <h1>📘 The Code Magazine</h1>
       <nav>
@@ -18,12 +21,12 @@
       </nav>
     </header>
     <article>
-      <header>
+      <header class="post-header">
         <h2>The Basic Language of the Web: HTML</h2>
         <img src="./img/laura-jones.jpg" alt="Laura Jones profile picture" width="50" height="50" />
         <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
 
-        <img src="./img/post-img.jpg" alt="HTML Code" width="500" height="200" />
+        <img src="./img/post-img.jpg" alt="HTML Code" width="500" height="200" class="post-image" />
       </header>
 
       <p>
@@ -69,10 +72,9 @@
       </ul>
 
       <p>Hopefully you learned something new here. See you next time!</p>
-
-      <h4>Related posts</h4>
     </article>
     <aside>
+      <h4>Related posts</h4>
       <ul class="related">
         <li>
           <img src="./img/related-1.jpg" alt="Person using a computer" width="75" height="75" />
@@ -91,6 +93,10 @@
         </li>
       </ul>
     </aside>
-    <footer><p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p></footer>
-  </body>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p>
+    </footer>
+  </div>
+</body>
+
 </html>
